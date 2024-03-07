@@ -4,7 +4,7 @@
     "module": "node16",
     "lib": ["ES2022"],
     "strict": true,
-    "esModuleInterpop": true,
+    "esModuleInterop": true,
     "moduleResolution": "Node16",
     "rootDir": ".",
     "outDir": "dist",
