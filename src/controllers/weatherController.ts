@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import {
     generateDublinWeatherData,
     generateLondonWeatherData,
-} from "../services/weatherService.js";
+} from "../src/services/weatherService.js";
 import { validationResult } from "express-validator";
 
  /**
