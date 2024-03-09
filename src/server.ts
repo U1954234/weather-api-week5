@@ -8,6 +8,8 @@ const PORT = 3000;
 
 app.use(express.json());
 
+app.use("/api/weather", 'weatherRoute');
+
  // Start the express server
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
