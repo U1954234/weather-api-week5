@@ -10,10 +10,12 @@
   "license": "MIT",
   "author": "Ilir Krijezi",
   "dependencies": {
+    "-": "^0.0.1",
     "@faker-js/faker": "^8.4.1",
     "cors": "^2.8.5",
     "express": "^4.18.3",
-    "express-validator": "^7.0.1"
+    "express-validator": "^7.0.1",
+    "validator": "^13.11.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.25",
@@ -26,5 +28,6 @@
   },
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx"
-  }
+  },
+  "keywords": []
 }
