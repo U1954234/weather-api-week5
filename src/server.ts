@@ -1,8 +1,6 @@
 import express from "express";
 import cors from "cors";
 
-app.use(cors());
-
 // We will create an express app
 const app = express();
 
