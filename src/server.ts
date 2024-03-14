@@ -6,7 +6,7 @@ import cors from "cors";
 const app = express();
 
 // The port that the express server will listen on
-const PORT = 3000;
+const PORT = 3001;
 
 app.use(express.json());
 app.use(cors())

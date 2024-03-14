@@ -4,7 +4,7 @@ import cors from "cors";
 // We will create an express app
 const app = express();
 // The port that the express server will listen on
-const PORT = 3000;
+const PORT = 3001;
 app.use(express.json());
 app.use(cors());
 app.use("/api/weather", weatherRoute);
