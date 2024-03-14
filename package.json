@@ -36,7 +36,6 @@
     "build:watch": "tsc -w -p tsconfig.json",
     "dev:start": "nodemon dist/src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    
+  },
   "keywords": []
 }
